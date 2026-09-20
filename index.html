@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adum Barber House — Fades, beard work &amp; kids' cuts in Kumasi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="#hero" class="brand">Adum Barber House</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav class="primary-nav" id="primaryNav">
+        <a href="#services">Services</a>
+        <a href="#process">How we work</a>
+        <a href="#work">Recent work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Adum, Kumasi</p>
+          <h1>Sharp fades, steady hands, no rushed cuts.</h1>
+          <p class="hero-lead">Adum Barber House is a five-chair barbershop on the edge of Kejetia, run by barbers who trained on this street and still cut on it. Walk-ins are welcome; bookings get you straight into the chair.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Book a cut</a>
+            <a href="#services" class="btn btn-ghost">View services</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="images/hero-chair.jpg" alt="Barber in profile with a low fade and full beard, seated in the barber's chair under a cape">
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services">
+      <div class="wrap">
+        <h2>What we do</h2>
+        <ul class="service-list">
+          <li class="service-item">
+            <h3>Signature Fade</h3>
+            <p>A clean, blended fade cut to the shape of your head, finished with a straight-razor lineup around the hairline.</p>
+          </li>
+          <li class="service-item">
+            <h3>Beard Sculpt &amp; Hot Towel</h3>
+            <p>Beard shaped to your jawline, hot towel prep, and a conditioning balm to finish. Pairs well with any haircut.</p>
+          </li>
+          <li class="service-item">
+            <h3>Kids' Cut</h3>
+            <p>Patient, quick cuts for children under 12, with a lollipop on the house and a parent-approved trim every time.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- HOW WE WORK -->
+    <section id="process" class="process">
+      <div class="wrap">
+        <h2>How we work</h2>
+        <ol class="process-steps">
+          <li>
+            <span class="step-num">01</span>
+            <h3>Enquire</h3>
+            <p>Message us on WhatsApp or fill in the form below with the cut you want and a time that suits you.</p>
+          </li>
+          <li>
+            <span class="step-num">02</span>
+            <h3>Confirm your slot</h3>
+            <p>We reply with an available chair and time, usually within the hour during opening days.</p>
+          </li>
+          <li>
+            <span class="step-num">03</span>
+            <h3>Walk out sharp</h3>
+            <p>Arrive five minutes early, take your chair, and leave with a cut that holds its shape for weeks.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- RECENT WORK -->
+    <section id="work" class="work">
+      <div class="wrap">
+        <h2>Recent work</h2>
+        <div class="gallery" id="gallery">
+          <div class="gallery-track" id="galleryTrack">
+            <figure class="gallery-slide">
+              <img src="images/fade-lineup.jpg" alt="Man in profile showing a sharp low fade with a crisp lineup and earring detail">
+              <figcaption>
+                <strong>Low fade &amp; lineup</strong>
+                <span>Tapered sides, sharp edges — finished this week for a regular client.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-slide">
+              <img src="images/beard-sculpt.jpg" alt="Man with a full, neatly shaped beard and fade">
+              <figcaption>
+                <strong>Beard sculpt</strong>
+                <span>Full beard shaped to the jawline with a matching skin fade.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-slide">
+              <img src="images/beard-shapeup.jpg" alt="Close portrait of a man with a dense, sculpted beard">
+              <figcaption>
+                <strong>Beard shape-up</strong>
+                <span>Clean, sharp lines around a dense beard, finished with hot towel.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-slide">
+              <img src="images/kids-fade.jpg" alt="Boy with a clean fade haircut in the barbershop">
+              <figcaption>
+                <strong>Kids' fade</strong>
+                <span>A sharp, low-maintenance fade for a young regular.</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-slide">
+              <img src="images/kids-curls.jpg" alt="Boy with a shaped curly top haircut">
+              <figcaption>
+                <strong>First haircut</strong>
+                <span>A patient trim that keeps the natural curl on top.</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="gallery-controls">
+          <button type="button" id="galleryPrev" aria-label="Previous example">&larr;</button>
+          <div class="gallery-dots" id="galleryDots"></div>
+          <button type="button" id="galleryNext" aria-label="Next example">&rarr;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="wrap contact-grid">
+        <div class="contact-info">
+          <h2>Get in touch</h2>
+          <p>Drop by, call ahead, or send a message. We'll confirm your slot before you set off.</p>
+          <dl>
+            <div>
+              <dt>Location</dt>
+              <dd>Adum, near Kejetia, Kumasi</dd>
+            </div>
+            <div>
+              <dt>Hours</dt>
+              <dd>Mon–Sat, 8:00 am – 7:00 pm</dd>
+            </div>
+            <div>
+              <dt>Phone / WhatsApp</dt>
+              <dd>+233 20 000 0000</dd>
+            </div>
+          </dl>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <p class="form-demo-note">Demo form — no message is actually sent.</p>
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          <span class="field-error" id="nameError"></span>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <span class="field-error" id="emailError"></span>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <span class="field-error" id="messageError"></span>
+
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-success" id="formSuccess" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <p class="footer-brand">Adum Barber House</p>
+        <p>&copy; <span id="year"></span> Adum Barber House. All rights reserved.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#hero">Back to top</a>
+        <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://wa.me/233200000000" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
