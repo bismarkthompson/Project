@@ -1,7 +1,7 @@
 # Adum Barber House — Local Business Landing Page
 
 ## Project overview
-- **Student name:** _[add your name]_
+- **Student name:** Bismark Thompson
 - **Project title:** Adum Barber House landing page
 - **Assigned industry:** Barber shop
 - **Business:** Adum Barber House, a fictional five-chair barbershop near Kejetia, Kumasi
@@ -61,19 +61,20 @@ To try it: open the page, scroll to **Recent work** and click the arrow buttons 
 **Screenshots:** _[add a laptop screenshot and a mobile screenshot here before submitting]_
 
 ## Reflection and links
-**A challenge I solved:** _[e.g. getting the gallery to track slide position and keep the dots in sync, or getting the two-column contact section to stack cleanly on mobile without breaking the form]_
+**A challenge I solved:** getting the gallery to track slide position and keep the dots in sync, or getting the two-column contact section to stack cleanly on mobile without breaking the form
 
-**What I learned:** _[add your own reflection]_
+**What I learned:** how the prev/next buttons and dots work by moving the whole track with transform: translateX() and keeping the dots in sync with a current index, rather than hiding/showing each slide separately
 
-- **GitHub repository:** _[add your repo link]_
-- **Live Netlify link:** _[add link, or "Not attempted"]_
+- **GitHub repository:** _https://github.com/bismarkthompson/Project
+
 
 ---
 
 ### Submission note
-- Student name:
+- Student name: Bismark Thompson
+
 - Business and industry: Adum Barber House — Barber shop
-- GitHub repository link:
+- GitHub repository link: https://github.com/bismarkthompson/Project
 - JavaScript interaction: Recent-work gallery (prev/next + dots), plus mobile nav toggle and contact-form validation
 - Mobile responsiveness bonus: Completed
 - Netlify live link: [link, or Not attempted]

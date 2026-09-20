@@ -128,6 +128,15 @@ a { color: inherit; }
   font-size: 0.95rem;
 }
 .primary-nav a:hover { color: var(--gold); }
+.primary-nav a:focus-visible,
+.brand:focus-visible,
+.btn:focus-visible,
+.nav-toggle:focus-visible,
+.gallery-controls button:focus-visible,
+.gallery-dot:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 4px;
+}
 
 .nav-toggle {
   display: none;
@@ -233,6 +242,7 @@ a { color: inherit; }
 .work { padding: 72px 0; background: var(--bg-alt); }
 
 .gallery { overflow: hidden; border-radius: 6px; }
+.gallery:focus-visible { outline: 2px solid var(--gold); outline-offset: 5px; }
 
 .gallery-track {
   display: flex;
@@ -293,14 +303,16 @@ a { color: inherit; }
   gap: 8px;
 }
 
-.gallery-dots span {
+.gallery-dot {
   width: 8px; height: 8px;
   border-radius: 50%;
   background: var(--line);
+  border: 0;
+  padding: 0;
   display: inline-block;
   cursor: pointer;
 }
-.gallery-dots span.active { background: var(--gold); }
+.gallery-dot.active { background: var(--gold); }
 
 /* ---------------- Contact ---------------- */
 
@@ -423,6 +435,8 @@ a { color: inherit; }
    Mobile responsiveness (bonus)
 ------------------------------------------------- */
 @media (max-width: 768px) {
+  body { font-size: 16px; }
+  .wrap { padding-left: 20px; padding-right: 20px; }
   .hero { padding: 48px 0 56px; }
   .hero-grid { grid-template-columns: 1fr; gap: 32px; }
   .hero-media { order: -1; }
@@ -441,6 +455,7 @@ a { color: inherit; }
   .primary-nav.open { display: flex; }
   .nav-toggle { display: flex; }
 
+  .btn-ghost { margin-left: 8px; }
   .service-item { grid-template-columns: 1fr; gap: 8px; }
 
   .process-steps { grid-template-columns: 1fr; gap: 28px; }
@@ -450,6 +465,13 @@ a { color: inherit; }
   .hero-media img { height: 320px; }
 
   .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+  .contact-form { padding: 24px; }
 
   .footer-inner { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 420px) {
+  .hero-actions { display: grid; gap: 12px; }
+  .btn { text-align: center; width: 100%; }
+  .btn-ghost { margin-left: 0; }
 }
