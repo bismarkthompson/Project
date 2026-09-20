@@ -66,7 +66,7 @@ To try it: open the page, scroll to **Recent work** and click the arrow buttons 
 **What I learned:** how the prev/next buttons and dots work by moving the whole track with transform: translateX() and keeping the dots in sync with a current index, rather than hiding/showing each slide separately
 
 - **GitHub repository:** _https://github.com/bismarkthompson/Project
-
+- **Nelify live link:** _https://myfinalproject1.netlify.app
 
 ---
 
@@ -77,4 +77,4 @@ To try it: open the page, scroll to **Recent work** and click the arrow buttons 
 - GitHub repository link: https://github.com/bismarkthompson/Project
 - JavaScript interaction: Recent-work gallery (prev/next + dots), plus mobile nav toggle and contact-form validation
 - Mobile responsiveness bonus: Completed
-- Netlify live link: [link, or Not attempted]
+- Netlify live link: https://myfinalproject1.netlify.app
